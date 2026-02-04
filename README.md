@@ -1,31 +1,101 @@
-# DIP-Semester-Project-RollNo--100064
-TrafficViolation-Dectection
+<h1 align="center">🚦 DIP Semester Project</h1>
+<h2 align="center">Traffic Violation Detection System</h2>
 
-​Student Information:
+<p align="center">
+<b>Course:</b> Digital Image Processing <br>
+<b>Student:</b> Tooba Rafique &nbsp; | &nbsp; <b>Roll No:</b> 100064
+</p>
 
-​Name: Tooba Rafique
-​Roll Number: 100064
-​Course: Digital Image Processing
+<hr>
 
-​Project Description:
-​This project is an automated traffic monitoring system designed to detect vehicles that violate red light signals. It uses Digital Image Processing to identify the traffic light color and track vehicle movement relative to a defined stop line.​The system automatically flags any vehicle crossing the line during a red signal, helping in efficient law enforcement. It reduces the need for manual surveillance and enhances road safety through real-time detection.
+<h2>📌 Project Overview</h2>
 
-​Project Objectives:
-​Signal Status Detection: Using color-based HSV segmentation to identify Red/Green lights.
-​Vehicle Detection: Utilizing Background Subtractor (MOG2) and Contour detection to find moving cars.
-​Violation Logic: flagging vehicles that cross the Stop Line when the signal is Red.
-​Noise Reduction: Applying Morphological Operations (Closing) for a cleaner image.
+<p style="font-size:18px;">
+This project presents an automated <b>Traffic Violation Detection System</b> developed using
+<b>Digital Image Processing (DIP)</b> techniques. The system monitors traffic signals and vehicle
+movement to detect red-light violations in real time. By analyzing signal color and vehicle position
+relative to a predefined stop line, the system identifies and flags violating vehicles automatically.
+</p>
 
-​Tools & Technologies Used:
-​Python: Main programming language.
-​OpenCV: For image and video processing.
-​NumPy: For handling image arrays.
+<hr>
 
-​Steps to Run the Code:
-​Clone Repository: Copy the project to your local machine.
-​Video File: Place your video named traffic_video.mp4 in the project folder.
-​Install Libraries: Run pip install opencv-python numpy in your terminal.
-​Run Script: Navigate to the Code/ folder and type python main.py.
+<h2>🎯 Project Objectives</h2>
 
-​Conclusion:
-​The system successfully integrates color detection and motion tracking to identify signal violators. This demonstrates how DIP provides a reliable, automated solution for modern traffic management.
+<p style="font-size:18px;">
+• Detect traffic signal status (Red / Green) using HSV color segmentation <br>
+• Detect moving vehicles using Background Subtraction (MOG2) <br>
+• Track vehicle movement near the stop line <br>
+• Identify and flag violations when vehicles cross the stop line during a red signal <br>
+• Reduce noise using Morphological Operations for cleaner detection
+</p>
+
+<hr>
+
+<h2>🛠 Tools & Technologies</h2>
+
+<p style="font-size:18px;">
+• <b>Python</b> – Core programming language <br>
+• <b>OpenCV</b> – Image and video processing <br>
+• <b>NumPy</b> – Numerical operations and array handling
+</p>
+
+<hr>
+
+<h2>⚙️ System Workflow</h2>
+
+<p style="font-size:18px;">
+1. Input traffic video is loaded into the system <br>
+2. Traffic signal color is detected using HSV color space <br>
+3. Vehicles are detected using background subtraction <br>
+4. Vehicle position is analyzed relative to the stop line <br>
+5. If the signal is red and a vehicle crosses the stop line, a violation is flagged
+</p>
+
+<hr>
+
+<h2>▶ How to Run the Project</h2>
+
+<p style="font-size:18px;">
+1. Clone this repository to your local machine <br>
+2. Place the traffic video file in the project directory and name it:
+<b>traffic_video.mp4</b> <br>
+3. Install required libraries using:
+</p>
+
+<pre>
+pip install opencv-python numpy
+</pre>
+
+<p style="font-size:18px;">
+4. Navigate to the project folder and run:
+</p>
+
+<pre>
+python main.py
+</pre>
+
+<hr>
+
+<h2>📊 Output</h2>
+
+<p style="font-size:18px;">
+The system displays bounding boxes around detected vehicles and labels any vehicle that violates
+traffic rules during a red signal. This output helps visualize real-time violation detection clearly.
+</p>
+
+<hr>
+
+<h2>✅ Conclusion</h2>
+
+<p style="font-size:18px;">
+This project demonstrates the practical application of Digital Image Processing in traffic
+management systems. By combining color detection and motion tracking, the system provides an
+effective and automated solution for identifying traffic signal violations, contributing to improved
+road safety and efficient monitoring.
+</p>
+
+<hr>
+
+<p align="center">
+<b>Digital Image Processing – Semester Project</b>
+</p>
